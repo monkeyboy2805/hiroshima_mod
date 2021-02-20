@@ -1,0 +1,65 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "hodor:grenade_p04",
+			"runtime_identifier": "minecraft:snowball",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "hodor:grenade" ]
+			},
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"definition_event": {
+						"affect_projectile": true,
+						"event_trigger": {
+							"event": "minecraft:explode",
+							"target": "self"
+						}
+					},
+					"arrow_effect": {},
+					"stick_in_ground": {}
+				},
+				"power": 5,
+				"gravity": 0.1,
+				"anchor": 1,
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"liquid_inertia": 0.99
+			}
+		},
+		"component_groups": {
+			"minecraft:exploding": {
+				"minecraft:explode": {
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 4,
+					"causes_fire": false,
+					"breaks_blocks": false,
+					"fire_affected_by_griefing": true,
+					"destroy_affected_by_griefing": true
+				}
+			}
+		},
+		"events": {
+			"minecraft:explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding"
+					]
+				}
+			}
+		}
+	}
+}

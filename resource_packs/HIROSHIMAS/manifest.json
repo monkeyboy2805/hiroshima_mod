@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "HIROSHIMA SNOWBALLS RESOURCES",
+		"description": "READ THE FUCKING TITLE",
+		"uuid": "01515ee3-a725-4ab9-b200-9581225459b1",
+		"version": [
+			1,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "31e50b09-c3a0-4efa-812d-3775a49de7f9",
+			"version": [
+				1,
+				0,
+				1
+			]
+		}
+	]
+}

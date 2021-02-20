@@ -1,0 +1,18 @@
+{
+	"resource_pack_name": "Socketed Weapons RP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"hiroshima_snowball": {
+			"textures": "textures/items/hsball.png"
+		},
+		"bomb": {
+			"textures": "textures/items/bomb.png"
+		},
+		"safe_bomb": {
+			"textures": "textures/items/safe_bomb.png"
+		},
+		"firebomb": {
+			"textures": "textures/items/firebomb.png"
+		}
+	}
+}

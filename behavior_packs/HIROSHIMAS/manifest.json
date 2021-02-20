@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "HIROSHIMA SNOWBALLS BEHAVIOUR PACK",
+		"description": "READ THE FUCKING TITLE",
+		"uuid": "7328abba-022f-434d-8b0c-7669b6460205",
+		"version": [
+			1,
+			0,
+			5
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fe913942-6823-4b3c-a4f0-89e1db41915d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				1
+			],
+			"uuid": "01515ee3-a725-4ab9-b200-9581225459b1"
+		}
+	]
+}
